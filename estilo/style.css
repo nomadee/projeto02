@@ -36,6 +36,8 @@ a {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 
 }
 
@@ -47,6 +49,11 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+}
+
+section.imagem > p {
+    background-color: rgb(40, 40, 40);
+    width: 400px;
 }
 
 a:hover{
